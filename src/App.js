@@ -1,11 +1,12 @@
 import './App.css';
 import Profile from './components/Profile';
+import Links from './components/Links';
 
 function App() {
   return (
     <div className="App">
       <Profile />
-      <h1>links tree</h1>
+      <Links />
     </div>
   );
 }
