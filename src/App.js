@@ -1,8 +1,11 @@
+import './App.css';
+import Profile from './components/Profile';
 
 function App() {
   return (
     <div className="App">
-      <h1>LintTree</h1>
+      <Profile />
+      <h1>links tree</h1>
     </div>
   );
 }
