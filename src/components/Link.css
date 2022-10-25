@@ -1,7 +1,7 @@
 .link{
   display: flex;
   text-decoration: none;
-  height: 100px;
+  height: 76px;
   align-items: center;
   text-align: center;
   font-family: inner;
@@ -20,5 +20,12 @@
 
 .main{
   margin-top: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .link{
+    width: auto;
+    height: 68px;
+  }
 }
 
